@@ -9,12 +9,29 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background: #f8f9fa;
-    color: #2d3436;
+    color: #495457;
 }
 
 .dark-theme {
     background: #1a1a1a;
     color: #ffffff;
+}
+
+.dark-theme .animated-card {
+    background: #2d2d2d;
+    color: #ffffff !important;
+}
+
+.dark-theme .stat-item {
+    background: #3a3a3a;
+}
+
+.dark-theme .stat-value {
+    color: #ecf0f1;
+}
+
+.dark-theme .stat-label {
+    color: #bdc3c7;
 }
 
 .main-header {
@@ -164,3 +181,4 @@ body {
         padding: 7rem 2rem;
     }
 }
+
